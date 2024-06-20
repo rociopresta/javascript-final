@@ -5,7 +5,7 @@
         "descripcion": "Pasta de spaghetti hecha en casa con ingredientes frescos.",
         "precio": 1200.50,
         "stock": 20,
-        "imagen": "spaghetti.jpg"
+        "imagen": "images/spaghetti.jpg"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "descripcion": "Fettuccine elaborado de forma artesanal, ideal para salsas cremosas.",
         "precio": 1350.75,
         "stock": 15,
-        "imagen": "fettuccine.jpg"
+        "imagen": "images/fettuccine.jpg"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "descripcion": "Ravioli relleno de ricotta fresca y espinaca, listo para cocinar.",
         "precio": 1550.00,
         "stock": 10,
-        "imagen": "ravioli.jpg"
+        "imagen": "images/ravioli.jpg"
     },
     {
         "id": 4,
@@ -29,6 +29,6 @@
         "descripcion": "Placas de lasaña hechas en casa, perfectas para tus recetas tradicionales.",
         "precio": 1750.25,
         "stock": 8,
-        "imagen": "lasagna.jpg"
+        "imagen": "images/lasagna.jpg"
     }
 ]
