@@ -1,6 +1,6 @@
 let carrito = [];
 
-// Función para cargar productos desde el archivo JSON
+/*Tarjetas de productos*/
 function cargarProductos() {
     fetch('productos.json')
         .then(response => response.json())
@@ -10,7 +10,6 @@ function cargarProductos() {
         .catch(error => console.error('Error al cargar los productos:', error));
 }
 
-// Función para mostrar productos
 function mostrarProductos(productos) {
     const contenedorProductos = document.getElementById('productos');
     productos.forEach(producto => {
@@ -27,8 +26,7 @@ function mostrarProductos(productos) {
         contenedorProductos.appendChild(divProducto);
     });
 }
-
-// Función para agregar productos al carrito
+/*Carrito*/
 function agregarAlCarrito(idProducto) {
     fetch('productos.json')
         .then(response => response.json())
@@ -47,7 +45,6 @@ function agregarAlCarrito(idProducto) {
         .catch(error => console.error('Error al agregar producto al carrito:', error));
 }
 
-// Función para mostrar el carrito
 function mostrarCarrito() {
     const contenedorCarrito = document.getElementById('carrito');
     contenedorCarrito.innerHTML = '';
@@ -66,7 +63,6 @@ function mostrarCarrito() {
     });
 }
 
-// Función para quitar productos del carrito
 function quitarDelCarrito(idProducto) {
     const productoEnCarrito = carrito.find(p => p.id === idProducto);
 
@@ -81,5 +77,4 @@ function quitarDelCarrito(idProducto) {
     }
 }
 
-// Cargar los productos al cargar la página
 document.addEventListener('DOMContentLoaded', cargarProductos);

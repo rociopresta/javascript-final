@@ -5,7 +5,7 @@
         "descripcion": "Pasta de spaghetti hecha en casa con ingredientes frescos.",
         "precio": 1200.50,
         "stock": 20,
-        "imagen": "images/spaghetti.jpg"
+        "imagen": "images/spaguetti.jpg"
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@
         "descripcion": "Ravioli relleno de ricotta fresca y espinaca, listo para cocinar.",
         "precio": 1550.00,
         "stock": 10,
-        "imagen": "images/ravioli.jpg"
+        "imagen": "images/ravioli.jpeg"
     },
     {
         "id": 4,
